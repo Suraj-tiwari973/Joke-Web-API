@@ -4,12 +4,12 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(47, 59, 231);
-    font-family:sans-serif;
+    background-color: #a0f56f;
+    font-family:Georgia, serif;
 }
 #heading{
     font-size: 30px;
-    font-family: sans-serif;
+    font-family: Georgia, serif;
     color: yellow;
     opacity: 1;
 }
@@ -23,6 +23,7 @@ body{
     transform: translate(-50%,-50%);
     top: 50%;
     left: 50%;
+    margin: 1em 0 0 0;
     
 }
 span{
@@ -57,4 +58,11 @@ button{
     cursor: pointer;
     border-radius: 5px;
     margin: 0 auto;
+}
+
+@media (max-width:500px) {
+    .container{
+        width: 95vmin;
+        
+    }
 }
